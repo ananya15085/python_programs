@@ -1,0 +1,14 @@
+inventory = {"apple": 100, "orange": 80, "banana": 120}
+print(inventory)
+#{'apple': 100, 'orange': 80, 'banana': 120}
+inventory["orange"] = 140         # Change
+print(inventory)
+#{'apple': 100, 'orange': 140, 'banana': 120}
+inventory["lemon"] = 200          # Add
+print(inventory)
+#{'apple': 100, 'orange': 140, 'banana': 120, 'lemon': 200}
+del inventory["banana"]           # Remove
+print(inventory)
+#{'apple': 100, 'orange': 140, 'lemon': 200}
+del inventory["grape"]
+print(inventory)

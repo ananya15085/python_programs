@@ -1,0 +1,14 @@
+print (issubclass(bool, int))      #true
+print(isinstance(True, int))        #true
+print(isinstance(False, int))       #true
+print(int(True))                    #1
+print(int(False))                   #0
+   
+
+
+
+
+has_permission = True
+print(id(has_permission))            #140723053071104
+has_permission = False
+print(id(has_permission))
