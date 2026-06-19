@@ -7,7 +7,7 @@ print(id(greeting[1]))        #140722406607288
 
 print(id(greeting))            #1847737600640
  
-print(id(greeting[E]))           
-#traceback
-#type error
+print(id(greeting['e']))           
+#Traceback (most recent call last):
+#typeError: name 'E' is not defined
   

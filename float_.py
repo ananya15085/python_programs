@@ -38,7 +38,8 @@ print('hexadecimal 1c2 =',n)      #hexadecimal 1c2 = 450
 
 str = "1c2"
 n = int (str,16)
+print(n)                          #450
+
+str = "0b1"
+n = int (str,2)
 print(n)
-
-
-#program to convert into decimal number system __2
