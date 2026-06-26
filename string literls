@@ -1,0 +1,22 @@
+s1 = 'This is first Indian book'
+s2 = "Core python"
+
+s1 = '''This is a First Indian book on Core python exploring 
+    all important and useful features'''
+s2 = """This is a First Indian book on Core python exploring 
+    all important and useful features"""
+
+str = """This is first line and \n
+    this will be continued with the first line"""
+print(str)
+#This is first line and 
+#this will be continued with the first line
+
+str = """This is \npython"""
+print(str)
+#This is 
+#python
+
+
+
+  

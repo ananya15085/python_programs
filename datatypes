@@ -1,0 +1,38 @@
+a = 15
+print(type(a))
+#<class 'int'>
+a = 15.5
+print(type(a))
+#<class 'float'>
+s = 'Hello'
+print(type(s))
+#<class 'str'>
+print(type("Hey"))
+#<class 'str'>
+list = [1, 2, 3, 4]
+print(type(list))
+#<class 'list'>
+t = (1, 2, 3, 4)
+print(type(t))
+#<class 'tuple'>
+a = {1, 2, 3, 4}
+print(type(a))
+#<class 'set'>
+
+#CHARACTERS
+ch = 'A'
+print(type(ch))
+#<class 'str'>
+
+str = 'Bharat'
+print(str[0])     #B    
+for i in str: print(i, end='')
+#B
+#h
+#a
+#r
+#a
+#t
+print(str[0].isupper())       #True
+print(str[1].isupper())       #False
+

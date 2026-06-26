@@ -1,0 +1,28 @@
+#program 1
+x = True
+y = False
+
+print("Value of x =", x)
+#Value of x = True
+print("Value of y =", y)
+#Value of y = False
+
+if x:
+    print("x is True")
+#x is True
+
+if not y:
+    print("y is False")
+#y is False
+
+#program 2
+a = True
+b = False
+
+print("Value of a:", a)
+#Value of a: True
+print("Value of b:", b)
+#Value of b: False
+
+print("Type of a:", type(a))    #Type of a: <class 'bool'>
+print("Type of b:", type(b))    #Type of b: <class 'bool'>

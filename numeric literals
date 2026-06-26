@@ -1,0 +1,37 @@
+# Program to demonstrate Numeric Literals in Python
+
+# Integer literals
+a = 450
+b = -15
+print("Integer literals:", a, b)
+#Integer literals: 450 -15
+
+# Float literals
+c = 3.14286
+d = -10.6
+e = 1.25E4
+print("Float literals:", c, d, e)
+#Float literals: 3.14286 -10.6 12500.0
+
+
+# Hexadecimal literal
+f = 0x5A1C
+print("Hexadecimal literal:", f)
+#Hexadecimal literal: 23068
+
+
+# Octal literal
+g = 0o557
+print("Octal literal:", g)
+#Octal literal: 367
+
+# Binary literal
+h = 0b110101
+print("Binary literal:", h)
+#Binary literal: 53
+
+
+# Complex literal
+i = 18 + 3j
+print("Complex literal:", i)
+#Complex literal: (18+3j)

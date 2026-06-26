@@ -1,0 +1,26 @@
+fruits = {"apple", "orange", "banana"}
+fruits.add("lemon")
+print(fruits)
+#{'apple', 'lemon', 'orange', 'banana'}
+
+fruits.add("orange")
+print(fruits)
+#'apple', 'orange', 'lemon', 'banana'}
+
+fruits.update({"grape", "orange"})
+print(fruits)
+#{'banana', 'orange', 'lemon', 'grape', 'apple'}
+
+fruits.remove("apple")
+print(fruits)
+#{'orange', 'lemon', 'grape', 'banana'}
+
+fruits.remove("mango")
+print(fruits)
+#Traceback (most recent call last):
+#KeyError: 'mango'
+
+fruits.pop()
+print(fruits)
+
+print(fruits)
