@@ -15,7 +15,7 @@ s = {1, 2, 3, 4, 5}
 print(s[0])           #1
 print(s[0:2])         #(1, 2)
 s = {1, 2, 3, 4, 5}
-s.update([50,60])
+s.update([50,80])
 print(s) 
 s.remove([50])
 print(s)

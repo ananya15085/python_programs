@@ -7,11 +7,11 @@ print("Integer literals:", a, b)
 #Integer literals: 450 -15
 
 # Float literals
-c = 3.14286
+c = 3.15634
 d = -10.6
-e = 1.25E4
+e = 1.26E4
 print("Float literals:", c, d, e)
-#Float literals: 3.14286 -10.6 12500.0
+#Float literals: 3.15634 -10.6 12500.0
 
 
 # Hexadecimal literal
@@ -35,3 +35,4 @@ print("Binary literal:", h)
 i = 18 + 3j
 print("Complex literal:", i)
 #Complex literal: (18+3j)
+

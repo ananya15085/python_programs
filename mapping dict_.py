@@ -13,4 +13,6 @@ print(d)
 del(d[11])
 print(d)
 #{10: 'raman', 12: 'hasini', 13: 'arun', 14: 'ritu'}
-     
+del(d[12])
+del(d[13])
+print(d)

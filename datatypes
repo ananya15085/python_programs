@@ -24,8 +24,8 @@ ch = 'A'
 print(type(ch))
 #<class 'str'>
 
-str = 'Bharat'
-print(str[0])     #B    
+str = 'Gourav'
+print(str[0])     #G   
 for i in str: print(i, end='')
 #B
 #h

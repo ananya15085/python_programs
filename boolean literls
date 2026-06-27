@@ -26,3 +26,4 @@ print("Value of b:", b)
 
 print("Type of a:", type(a))    #Type of a: <class 'bool'>
 print("Type of b:", type(b))    #Type of b: <class 'bool'>
+

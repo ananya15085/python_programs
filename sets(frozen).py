@@ -11,12 +11,12 @@ print(dir(fruits))
 'union'
 ] 
 
-s = [50, 60, 70, 80, 90]
+s = [50, 40, 70, 80, 90]
 print(s)          
-#[50, 60, 70, 80, 90]
+#[50, 40, 70, 80, 90]
 fs = frozenset(s)
 print(fs)
-#frozenset({70, 80, 50, 90, 60})
+#frozenset({70, 40, 80, 50, 90})
 fs = frozenset("abcdefg")
 print(fs)
-#frozenset({'f', 'd', 'b', 'c', 'a', 'e', 'g'})
+#frozenset({'a', 'e', 'g', 'd', 'c', 'f', 'b'})
